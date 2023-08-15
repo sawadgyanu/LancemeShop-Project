@@ -16,7 +16,7 @@ const Login = () => {
       password.current.value === localPassword
     ) {
       alert("login succesfully");
-      navigate("/home");
+      navigate("/");
     } else {
       return alert("invalid credential");
     }
@@ -24,7 +24,7 @@ const Login = () => {
 
   const handleClickHere = () => {
     localStorage.clear();
-    navigate("/");
+    navigate("/signup");
   };
 
   return (
@@ -43,16 +43,16 @@ const Login = () => {
             <input
               className="w-full pl-3 text-black bg-slate-300 outline-[var(--primary-color)] rounded-lg py-2"
               ref={email}
-              placeholder="email..."
+              placeholder="Enter your email."
               type="email"
             />
           </div>
           <div className="flex gap-2 flex-col">
-            <label className="text-xl">Password</label>
+            <label className="text-xl"> Enter youtPassword</label>
             <input
               className="w-full pl-3 text-black bg-slate-300 outline-[var(--primary-color)] rounded-lg py-2"
               ref={password}
-              placeholder="password"
+              placeholder="Enter your password"
               type="password"
             />
           </div>

@@ -61,10 +61,10 @@ const ProductsList = () => {
                   <div className="">
                     <p>{products.description}</p>
                     <div className="flex items-center justify-between">
-                      <p className="text-2xl font-thin ">${products.price}</p>
+                      <p className="text-2xl font-thin  hover:bg-red">${products.price}</p>
                       <button
                         onClick={() => handleAddToCart(products)}
-                        className="bg-[var(--primary-color)] text-white p-2 px-4 rounded-[20px]"
+                        className="bg-[var(--primary-color)] text-white p-2 px-4 rounded-[20px] hover:bg-[var(--secondary-color)] "
                       >
                         Buy
                       </button>
@@ -80,3 +80,4 @@ const ProductsList = () => {
 };
 
 export default ProductsList;
+

@@ -14,3 +14,24 @@ body{
   font-family: 'poppins',sans-serif;
   background-color: #F5F5F7;
 }
+
+footer{
+  background-color: var(--color-232f3e); 
+ }
+ footer:not(:first-child){
+   border-top: 1px solid rgba(225, 225, 225, 0.1);
+ }
+ footer .input-group-text{
+   background-color:var(--color-A1FE6B);
+   color: rgb(14, 243, 117);
+   
+   margin: 1px;
+   padding: 8px 17px;
+   font-weight: 400;
+   line-height: 20px;
+   right: 0;
+   text-transform: uppercase;
+   left: auto;
+   column-gap: 0px;
+   letter-spacing: .3px;
+ }

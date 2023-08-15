@@ -44,8 +44,10 @@ const Admin = () => {
           >
             Cart
           </NavLink>
-          <NavLink className="text-white mt-4 text-xl font-semibold">
-            about
+          <NavLink className="text-white mt-4 text-xl font-semibold hover {
+  color: black;
+}">
+            About Us
           </NavLink>
           <NavLink
             to={"/carts"}
@@ -58,9 +60,9 @@ const Admin = () => {
           <p className="    text-center text-lg text-white ">
             Available Products on{" "}
             <span className="text-[var(--primary-color)] font-bold text-xl">
-              Lanceme{" "}
+              Lenceme {" "}
             </span>{" "}
-            <span className="text-black">shop</span>
+            <span className="text-black">Shop.</span>
           </p>
           {cart.productsData.map((cartItem, ind) => {
             return (

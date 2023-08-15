@@ -57,6 +57,7 @@ const Cart = () => {
               </div>
             );
           })}
+          
           <p className="bg-white  text-end rounded-[20px] p-4 mt-6">
             total :{" "}
             {cart.cartItem

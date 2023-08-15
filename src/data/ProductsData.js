@@ -63,6 +63,29 @@ export const productsData = [
         description : "iphone 14 pro & iphone 14 pro max",
         price : 999
     },
+   
+    {   
+        
+        id:uuidv4(),
+        image : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQTJ3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1673374526158",
+        description : "iphone 14 pro",
+        price : 60
+    },
+    {   
+        
+        id:uuidv4(),
+        image : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1661958160674",
+        description : "iphone 14 & iphone 14 plus",
+        price : 60
+    },
+    
+    // {   
+        
+    //     id:uuidv4(),
+    //     image : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.daraz.com.np%2Ftag%2Fiphone-12%2F&psig=AOvVaw2AGn0mSb3Ruf2lh1Dzldng&ust=1678863814747000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKiomp3t2v0CFQAAAAAdAAAAABAE",
+    //     description : "iphone 14 & iphone 14 plus",
+    //     price : 1000
+    // },
     {   
         
         id:uuidv4(),
@@ -70,7 +93,7 @@ export const productsData = [
         description : "iphone 14 pro & iphone 14 pro max",
         price : 999
     }
-    
+        
     
 
 ]

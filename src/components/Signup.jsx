@@ -20,9 +20,9 @@ const Signup = () => {
 
   useEffect(() => {
     if (!localSignup) {
-      navigate("/");
+      navigate("/signup");
     } else {
-      navigate("/login");
+      navigate("/");
     }
 
     return () => {};
